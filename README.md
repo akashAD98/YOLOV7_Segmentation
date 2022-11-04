@@ -1,16 +1,11 @@
 # yolov7-instance-segmentation
 
-## Coming Soon
-- Development of streamlit dashboard for Instance-Segmentation with Object Tracking
-
-## Code Medium Blog
-- https://chr043416.medium.com/train-yolov7-segmentation-on-custom-data-b91237bd2a29
 
 ## Steps to run Code
 
 - Clone the repository
 ```
-git clone https://github.com/RizwanMunawar/yolov7-segmentation.git
+
 ```
 - Goto the cloned folder.
 ```
@@ -38,7 +33,7 @@ pip install --upgrade pip
 ```
 pip install -r requirements.txt
 ```
-- Download weights from [link](https://github.com/RizwanMunawar/yolov7-segmentation/releases/download/yolov7-segmentation/yolov7-seg.pt) and store in "yolov7-segmentation" directory.
+- Download weights from [link]() and store in "yolov7-segmentation" directory.
 
 - Run the code with mentioned command below.
 ```
@@ -170,13 +165,3 @@ python3 segment/predict.py --weights "runs/yolov7-seg/exp/weights/best.pt" --sou
 ## References
 - https://github.com/WongKinYiu/yolov7/tree/u7/seg
 - https://github.com/ultralytics/yolov5
-
-## My Medium Articles
-- https://medium.com/augmented-startups/yolov7-training-on-custom-data-b86d23e6623
-- https://medium.com/augmented-startups/roadmap-for-computer-vision-engineer-45167b94518c
-- https://medium.com/augmented-startups/how-can-computer-vision-products-help-in-warehouses-aa1dd95ec79c
-- https://medium.com/augmented-startups/problems-in-the-development-of-computer-vision-products-eb081ec7aa2e
-- https://medium.com/augmented-startups/yolor-or-yolov5-which-one-is-better-2f844d35e1a1
-- https://medium.com/augmented-startups/train-yolor-on-custom-data-f129391bd3d6
-- https://chr043416.medium.com/train-yolov7-segmentation-on-custom-data-b91237bd2a29
-- https://medium.com/augmented-startups/develop-an-analytics-dashboard-using-streamlit-e6282fa5e0f
