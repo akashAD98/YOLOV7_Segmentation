@@ -5,7 +5,7 @@
 
 - Clone the repository
 ```
-
+git clone https://github.com/akashAD98/YOLOV7_Segmentation
 ```
 - Goto the cloned folder.
 ```
